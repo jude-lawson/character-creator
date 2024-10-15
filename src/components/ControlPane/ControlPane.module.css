@@ -25,3 +25,10 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 666px) {
+  .controlPane {
+    overflow-x: auto;
+    min-width: 500px;
+  }
+}

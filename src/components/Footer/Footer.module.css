@@ -9,3 +9,9 @@
 .footer a {
   color: inherit;
 }
+
+@media (max-width: 666px) {
+  .footer {
+    display: none;
+  }
+}

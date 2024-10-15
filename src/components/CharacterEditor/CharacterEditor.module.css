@@ -48,3 +48,32 @@
   max-width: 50%;
   isolation: isolate;
 }
+
+@media (max-width: 666px) {
+  .characterEditor::before,
+  .header {
+    display: none;
+  }
+
+  .controlColumn {
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+  }
+
+  .maxWidthWrapper {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    overflow-x: scroll;
+  }
+
+  .characterWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+}
